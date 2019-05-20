@@ -20,3 +20,10 @@ function deviceInfo() {
 	navigator.notification.alert(info);
 	
 }
+
+function aboutMe() {
+info1 = 'Hi, its me' + '\n' +
+'My name: ' +  ' Bartek ' + '\n';
+
+navigator.notification.alert(info1);
+}
